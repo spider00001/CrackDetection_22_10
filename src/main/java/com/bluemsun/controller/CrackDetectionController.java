@@ -22,7 +22,9 @@ public class CrackDetectionController {
     @ResponseBody
     public String easydlImageClassify(HttpServletRequest req) {
         // 请求url
-        String url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/segmentation/cracktest1";
+//        String url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/segmentation/cracktest1";
+
+        String url = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/segmentation/cracks";
         FileInputStream inputStream = null;
         try {
             Map<String, Object> map = new HashMap<>();
