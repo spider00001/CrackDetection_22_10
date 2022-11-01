@@ -37,7 +37,7 @@ public class UserController {
             session.removeAttribute("user");
         }
         map.put("code",0);
-        map.put("msg","推出登陆成功");
+        map.put("msg","退出登陆成功");
         return map;
     }
 }
