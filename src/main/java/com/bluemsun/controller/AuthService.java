@@ -24,14 +24,14 @@ public class AuthService {
      */
     public static String getAuth() {
         // 官网获取的 API Key 更新为你注册的
-//        String clientId = "3seLofowAeht6A7NGgR5zkim";
+        String clientId = "3seLofowAeht6A7NGgR5zkim";
 //        // 官网获取的 Secret Key 更新为你注册的
-//        String clientSecret = "dcGz5oxFH5TLf2BynD57T1Dq6UPpQQIS";
+        String clientSecret = "dcGz5oxFH5TLf2BynD57T1Dq6UPpQQIS";
 
-        // 官网获取的 API Key 更新为你注册的
-        String clientId = "7sfNm63R24rXuDwjVVAeld5x";
-        // 官网获取的 Secret Key 更新为你注册的
-        String clientSecret = "hR38wSVlabYMDzxGc06skSVUHiymoinG";
+//        // 官网获取的 API Key 更新为你注册的
+//        String clientId = "7sfNm63R24rXuDwjVVAeld5x";
+//        // 官网获取的 Secret Key 更新为你注册的
+//        String clientSecret = "hR38wSVlabYMDzxGc06skSVUHiymoinG";
         return getAuth(clientId, clientSecret);
     }
 
